@@ -181,9 +181,10 @@
   padding-top: 45px;
   padding-left: 40px;
   padding-right: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   
-  
-
   article {
     position: relative; 
     display: flex;
@@ -214,18 +215,15 @@
 
 
 .bg_image {
-  background: url(../images/card-lot-03.jpg) center no-repeat;
-  background-size: cover;
+  background-image: url(../images/card-lot-03.jpg) 
 }
 
 .bg_cinema {
-  background: url(../images/card-lot-01.jpg) center no-repeat;
-   background-size: cover;
-} 
+  background-image: url(../images/card-lot-01.jpg) 
+}
 
 .bg_book {
-  background: url(../images/card-lot-02.jpg) center no-repeat;
-  background-size: cover;
+  background-image: url(../images/card-lot-02.jpg) 
 }
 
 .more {
