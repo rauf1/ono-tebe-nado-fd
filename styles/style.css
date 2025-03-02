@@ -3,9 +3,7 @@
 
 .header {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
-  /* padding: 0 50px 0 95px; */
   margin: 95px 0;
   gap: 184px;
   margin-left: 50px;
@@ -25,15 +23,12 @@
   
 }
 
-.menu__item:last-child{
-  
-}
 
 .menu__item {
   list-style: circle;
 }
 
-.menu__item:has(.active){
+.menu__item:has(.active) {
   list-style: none;
 }
 
@@ -46,10 +41,10 @@
   width: 136px;
 }
 
-.header__contacts {
+.address .address__header {
   margin-left: 6px;
 }
-.contact__item {
+.address__item {
   list-style: none;
   text-underline-offset: 4px;
   font-size: 18px;
@@ -73,15 +68,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Полупрозрачный черный */
-  z-index: 1; /* Чтобы overlay был выше фона */
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
 }
 
 
 .cover__container {
     margin-top: 165px;
     width: 1100px;
-    /* height: 385px; */
     margin: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
@@ -114,7 +108,6 @@
   justify-content: center;
   align-items: center;
   margin-left: 35px;
- 
 }
 .cover__title .text__right {
   align-self: flex-end;
@@ -129,11 +122,10 @@
   display: flex;
   justify-content: space-between;
   font-size: 22px;
-  color: #ce0808;
+  color: #FFFFFF;
   margin-right: 50px;
   margin-bottom: 50px;
   z-index: 2;
-
 }
 
 .title {
@@ -156,15 +148,15 @@
 
 
 .lots {
-  margin-top: 183px;
+  margin-top: 181px;
 }
 
 .lots__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
   margin-bottom: 30px;
-  /* background-size: contain; */
 }
 
 .title__lot {
@@ -190,8 +182,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: white;
-    height: 516px;
+    color: #FFFFFF;
+    min-height: 516px;
     width: 254px;
     z-index: 11;
   }
@@ -237,7 +229,6 @@
   margin-top: 120px;
   margin-left: 24px;
   margin-right: 24px;
-  height: 595px;
 }
 
 .logo__white {
@@ -250,7 +241,6 @@
   border-radius: 50%;
   margin-left: 47px;
   margin-top: 30px;
-  
 }
 
 .logo__white img {
@@ -276,29 +266,28 @@
   line-height: 24px;
   margin-right: 5px;
   width: 693px;
-  color: #ce0808;
 }
 
-.text__auction2 {
-  margin-top: 19px;
+
+.text__auction {
+  margin-bottom: 25px;
 }
 
 footer {
   display: flex;
-  height: 180px;
-  margin-top: 180px; 
+  margin-top: 161px; 
   justify-content: space-between;
 }
 
-.contact__footer {
+.address__footer {
   margin-left: 50px;
-  margin-bottom: -30px;
+  margin-bottom: 50px;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
 }
 
-.contact__footer__item {
+.address__footer__item {
   list-style-type: none;
   text-underline-offset: 4px;
 }
@@ -310,8 +299,6 @@ footer {
   align-items: center;
   list-style-type: none;
   text-underline-offset: 4px;
-  margin-left: 65px;
-  margin-top: -10px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -324,7 +311,6 @@ footer {
 .socials {
   display: inline-block;
   width: 240px;
-  height: 48px;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px; 
@@ -335,11 +321,5 @@ footer {
 .socials__list {
   display: flex;
   gap: 48px;
-  height: 48px;
   list-style: none;
-}
-
-.footer__menu {
-  margin-left: 154px;
-  margin-right: 178px;
 }
