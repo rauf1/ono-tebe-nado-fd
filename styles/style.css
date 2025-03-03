@@ -251,7 +251,6 @@
 }
 
 .about {
-  /* width: 695px; */
   margin-top: 135px;
 
 }
@@ -264,6 +263,7 @@
 }
             
 .text__auction_texts {
+  padding-top: 5px;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -279,7 +279,7 @@
 
 footer {
   display: flex;
-  margin-top: 155px; 
+  margin-top: 153px; 
   justify-content: space-between;
   padding-bottom: 82px;
 }
